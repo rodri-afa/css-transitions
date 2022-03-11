@@ -5,6 +5,10 @@
 
 /*Caja nº 2 con transición de cambio de tamaño de tipografía, duración 2 segundos*/
 
+.caja:nth-child(2):hover {
+    transition: font-size 2s;
+    font-size: 32px;
+}
 /*Caja nº 3 con transición de cambio de color de las letras del contenedor, duración una quinta parte de un segundo*/
 
 /*Caja nº 4 con transición de cambio de valor del interlineado, con inicio suavizado*/
