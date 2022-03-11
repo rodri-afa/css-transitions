@@ -4,8 +4,7 @@
 /*Caja nº 1 con transición de cambio de color de fondo */
 
 /*Caja nº 2 con transición de cambio de tamaño de tipografía, duración 2 segundos*/
-
-.caja:nth-child(2):hover {
+.caja:nth-child(2):hover span {
     transition: font-size 2s;
     font-size: 32px;
 }
